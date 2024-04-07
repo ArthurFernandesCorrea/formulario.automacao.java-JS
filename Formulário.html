@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Formulário E2E| Quer mais, torne-se mais</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            text-align: center;
+
+        }
+
+        form {
+            width: 300px;
+            margin: auto;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input {
+            width: 100%;
+            padding: 5px;
+            margin-top: 5px;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: rgb(29, 116, 193);
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <h1>Formulário E2E Treinamentos</h1>
+    <form id="cadastroForm">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome">
+        <label for="sobrenome">Sobrenome:</label>
+        <input type="text" id="sobrenome">
+        <label for="dataNascimento">Data de Nascimento:</label>
+        <input type="date" id="dataNascimento">
+        <label for="whatsapp">Whatsapp:</label>
+        <input type="tel" id="whatsapp">
+        <button type="submit">Cadastrar</button>
+    </form>
+
+    <script>
+        document.getElementById("cadastroForm").addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            //capturamos as informações e guardamos em variáveis
+            var nome = document.getElementById("nome").value;
+            var sobrenome = document.getElementById("sobrenome").value;
+            var dataNascimento = document.getElementById("dataNascimento").value;
+            var whatsapp = document.getElementById("whatsapp").value;
+
+            //exibir as informações capturadas em um alert
+            var mensagem = "Cadastro realizado com sucesso.\n\n";
+            mensagem += "Nome: " + nome + "\n";
+            mensagem += "Sobrenome: " + sobrenome + "\n";
+            mensagem += "Data de Nascimento: " + dataNascimento + "\n";
+            mensagem += "Whatsapp: " + whatsapp + "\n";
+            alert(mensagem);
+        })
+
+
+    </script>
+
+</body>
+
+</html>
