@@ -1,12 +1,12 @@
-<h1 align="left">## Projeto formulario.auotmacao.java-JS ##</h1>
+<h1 align="left">## Projeto formulario.automacao.java-JS ##</h1>
 
 ###
 
-<p align="left">Projeto de automação de testes UI utilizando linguagem Java para validar as funcionalidades de um formulário.<br>O formulário foi desenvolvido utilizando o Visual Code Studio utilizando HTML e JavaScript.</p>
+<p align="left">Projeto de automação de testes UI utilizando linguagem Java para validar as funcionalidades de um formulário.<br>O formulário foi desenvolvido no Visual Code Studio utilizando HTML e JavaScript.</p>
 
 ###
 
-<h2 align="left">Tecnologias utilizadas no Projeto</h2>
+<h2 align="left">Tecnologias utilizadas</h2>
 
 ###
 
